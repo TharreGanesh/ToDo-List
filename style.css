@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.filters {
+    margin-top: 20px;
+}
+
+.filters button {
+    margin-right: 10px;
+}
+
+#taskList {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.task {
+    margin: 5px 0;
+    padding: 10px;
+    background: violet;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+body.dark-mode {
+    background-color: blueviolet;
+    color: white;
+}
+
+
